@@ -1,4 +1,7 @@
 # AI-Agents-Procedural-Generation
+
+Video Documentation of this project, URL - https://youtu.be/obu4n33KHIw
+
 Interactive Agents and Procedural Generation
 Demo documentation
 References for code
@@ -39,6 +42,3 @@ Agent
       * Eating state
       * Showering state
       * Relaxing state
-
-
-Video Documentation URL - https://youtu.be/obu4n33KHIw
