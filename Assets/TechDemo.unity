@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439403, g: 0.4931519, b: 0.5722083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -381,6 +381,114 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1153498496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5544130770861995957, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_Name
+      value: Agent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544130770861995958, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+--- !u!1 &1153498497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5544130770861995957, guid: b39ed57a440a65d4a9b830e1cc89fe67, type: 3}
+  m_PrefabInstance: {fileID: 1153498496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1153498498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153498497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e36bb99a21ab4b348b75ea1756e47c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentNeeds: {fileID: 1153498499}
+--- !u!114 &1153498499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153498497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa8b2a1fc76405f907f18aa8f7f4a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 0
+  thirst: 0
+  stress: 0
+  bladder: 0
+  hygiene: 0
+  sleep: 0
+  recreation: 0
+--- !u!114 &1153498500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153498497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aef013825b0a49f8b34f97966696f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  utilityAI: {fileID: 0}
+  navMeshAgent: {fileID: 0}
 --- !u!1 &1197952797
 GameObject:
   m_ObjectHideFlags: 0
