@@ -9,8 +9,6 @@ References for code
 NavMesh - Unity's NavMesh Components is being used to bake the navmesh and navigate the agent
 
 Generator
-* All the code was created from scratch. But I have referred to the provided materials and also a tutorial series to create the generator
-* Link - https://www.youtube.com/watch?v=VnqN0v95jtU&list=PLcRSafycjWFfEPbSSjGMNY-goOZTuBPMW
 * Files
    * Home - The main class that creates the home
    * HomeArea - Calculates the partitions and Generates the rooms in the space using the Binary space partitioning algorithm
